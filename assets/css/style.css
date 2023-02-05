@@ -338,6 +338,8 @@ body.nav-active { overflow: hidden; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav-open-btn {
@@ -354,6 +356,9 @@ body.nav-active { overflow: hidden; }
 }
 
 .navbar {
+  font-size: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
   right: -300px;
   max-width: 300px;
   background-color: var(--rich-black-fogra-29);
@@ -391,8 +396,12 @@ body.nav-active { overflow: hidden; }
 
 .navbar-link {
   color: var(--white);
+  font-size: 15px;
   text-transform: uppercase;
   padding: 10px 24px;
+  font-weight: lighter;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .social-list {
